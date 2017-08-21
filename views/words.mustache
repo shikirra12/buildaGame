@@ -1,0 +1,32 @@
+{{#attempts}}
+<p>
+  {{.}}
+</p>
+{{/attempts}}
+
+<p>
+{{#hey}}
+{{#greeting}}
+{{.}}
+{{/greeting}}
+{{/hey}}
+</p>
+
+{{#wordToGuess}}
+{{.}}
+{{/wordToGuess}}
+{{#error}}
+{{.}}
+{{/error}}
+{{^error}}
+{{/error}}
+
+
+
+
+
+
+<!-- *if game ends put mustache tag around this form -->
+<!-- <form class="" action="/" method="post">
+  <button type="submit" name="button">Play Again</button>
+</form> -->
